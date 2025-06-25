@@ -40,6 +40,10 @@ docker run -p 8000:8000 feedback-backend
 
 Now open: http://localhost:8000
 
+### 4. Frontend which is deployed on render
+ link - https://feeback-frontend.onrender.com
+
+
 ### Project Structure
 
 feedback_app/
@@ -72,3 +76,38 @@ feedback_app/
 | PATCH  | `/api/feedbacks/<id>/` | Update existing feedback           |
 | GET    | `/api/feedbacks/team/` | View all submitted feedbacks       |
 
+### Sample users
+
+
+    Manager Role Signup
+    Name: Rahul Thakur
+    email: rahul8120@gmail.com
+    password: 123456789
+    manager Id : 123456
+    team id : 1234
+    feedback for employee 1 : you created basic app. you did not mention about database and tables.
+    feedback for employee 2 : you are doing better than others.
+
+ 
+    employee 1
+   
+    Name: Pushpendra yadav
+    email: push123@gmail.com
+    password: 123456788
+    employee Id : 1234567
+    team Id : 1234
+    
+    work summary : created backend app
+    Add On : I created this application using React in frontend and django in backend.
+
+    employee 2
+  
+    Name : Ashwin Kumar 
+    email : ashwin321@gmail.com
+    password : 123456787
+    employee Id : 12345678
+    team ID : 1234
+
+    work summary : deployed full stack web app
+    detail : I created full stack web application using React nodejs in frontend and 
+    python django in backend. I used sqlite databasea and tables USER, Report and feedback. 
